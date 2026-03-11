@@ -1,4 +1,4 @@
-package weather.api.weatherapi.configuration.service;
+package weather.api.weatherapi.service;
 
 import io.github.bucket4j.Bandwidth;
 import io.github.bucket4j.Bucket;

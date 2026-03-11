@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestClient;
-import weather.api.weatherapi.configuration.service.RateLimit;
+import weather.api.weatherapi.service.RateLimit;
 import weather.api.weatherapi.model.Weather;
 import java.util.concurrent.TimeUnit;
 
