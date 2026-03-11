@@ -11,8 +11,7 @@ import java.util.List;
 @Getter
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Weather implements java.io.Serializable{
-    private static final long serialVersionUID = 1L;
+public class Weather  {
     private String dateTime;
     private String description;
     private String address;
@@ -22,8 +21,7 @@ public class Weather implements java.io.Serializable{
     @AllArgsConstructor
     @Data
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Day implements java.io.Serializable{
-        private static final long serialVersionUID = 1L;
+    public static class Day {
         private String datetime;
         private double temp;
         private double tempmax;
