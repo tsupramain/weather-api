@@ -22,7 +22,7 @@ public class RateLimit {
     }
 
     private Bucket createNewBucket(String ip) {
-        Bandwidth limit = Bandwidth.simple(5, Duration.ofMinutes(1));
+        Bandwidth limit = Bandwidth.simple(4, Duration.ofMinutes(1));
         Bucket bucket = Bucket4j.builder()
                 .addLimit(limit)
                 .build();
